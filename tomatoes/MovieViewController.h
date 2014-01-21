@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MovieViewController.h
 //  tomatoes
 //
 //  Created by Kushan Shah on 1/20/14.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Movies.h"
 
-@interface ViewController : UIViewController
+@interface MovieViewController : UIViewController
+
+@property (strong, nonatomic) Movies *movie;
 
 @end
